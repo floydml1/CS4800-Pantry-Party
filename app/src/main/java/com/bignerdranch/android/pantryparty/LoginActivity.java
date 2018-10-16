@@ -19,6 +19,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.text.TextUtils;
+import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -28,6 +29,7 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -86,14 +88,65 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                attemptLogin();
+                lookupUser(view);
             }
         });
+
+
+        Button mRegisterButton = (Button) findViewById(R.id.register_button);
+        mRegisterButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                newUser(v);
+            }
+        });
+
+
+
 
         //I don't know what this does but it won't compile with it
         //mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
     }
+
+    public void newUser (View view) {
+        MyDbHandler dbHandler = new MyDbHandler(this, null, null, 1);
+
+        String password =
+                mPasswordView.getText().toString();
+
+        User user =
+                new User(mEmailView.getText().toString(), password);
+
+        dbHandler.addUser(user);
+        mEmailView.setText("");
+        mPasswordView.setText("");
+    }
+
+
+    public void lookupUser (View view) {
+        MyDbHandler dbHandler = new MyDbHandler(this, null, null, 1);
+        int messageResId = 0;
+
+        User user =
+                dbHandler.findUser(mEmailView.getText().toString());
+
+        if (user != null) {
+            if (user.getPassword().equals(mPasswordView.getText().toString())) {
+                    messageResId = R.string.correct_toast;
+            }
+            else {
+                messageResId = R.string.wrong_pass_toast;
+            }
+        } else {
+            messageResId = R.string.incorrect_toast;
+        }
+        Toast toastTrue = Toast.makeText(this, messageResId,
+                Toast.LENGTH_SHORT);
+        toastTrue.setGravity(Gravity.TOP, 0, 0);
+        toastTrue.show();
+    }
+
 
     private void populateAutoComplete() {
         if (!mayRequestContacts()) {
