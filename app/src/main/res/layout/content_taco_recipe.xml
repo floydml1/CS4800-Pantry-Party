@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Ingredients:\n
+                         4 Hard or Soft Taco Shells\n
+                         1 lb. Ground Beef\n
+                         1 Taco Seasoning Packet\n
+                         8 oz. Sour Cream\n
+                         16 oz. Shredded Sharp Cheddar Cheese\n
+                         2 cups Shredded Lettuce\n
+                            \n
+                         Optional Toppings:\n
+                         Guacamole\n
+                         Salsa\n
+                         Queso\n
+                         \n
+                         Substitutes For Ground Beef:\n
+                         Chicken\n
+                         Shrimp\n
+                         Turkey\n
+                         Tofu\n
+                         \n
+Instructions:\n
+                         1. Cook the ground beef over medium high\n                       heat until the meat is well browned, stirring\n                     often. Pour out any fat from the beef.\n
+                         2. Add taco seasoning based on package\n                        instructions or for desired taste.\n
+                         3. Evenly distribute the ground beef into the\n                      taco shells (if using soft tacos, warm if desired).\n
+                         4. Top the tacos with toppings of your choice.\n
+                         5. Enjoy!\n
+
+                        " />
+</android.support.v4.widget.NestedScrollView>
