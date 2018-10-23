@@ -1,190 +1,196 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:2:1-32:12
-MERGED from [com.android.support:design:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/ee53614f8ba6190422a877992bc90f95/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bc63a5a03b2f56b6cc0230509fb99258/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/c395c70e1128a051fa420e912d18af40/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/383ddf6070c129fe249fe742cc73ffe3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/cac926b55e9b8b9cf822502e6cc20038/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8653b0ad2fa339270b5897e54309ffe7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/52eca8fe4fd2ca9b96dbd6c32caa8e1e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/dd3228c40989bc6ae63becb1abbc95a6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/e67e7200d52d537642839ca6d085dfa4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9155ca7dc6d397697b7f7f5ecc964869/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/638554a41b2d62882eaa40cee5b871a0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/d6b31d067fe2b06513565cea98e53fe0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/0c5f26cd7d7acb3597a818e7498d737b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/29f20e79fc40ffc6ca0850936fc0b24f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e666b4e50ac68c6a92de2c637bd33d43/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/37fcc88942ef53e77a3376c02caf36b4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/79f93c2fd9a930ddddb7361fedccf707/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d3a5f53df0fbe9ee2634d928846fd4e9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/30321c0c4072053855bf4889a0d7662c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/421a6fa52d72b15348ea506513579ba7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/804baf8aadc6c1f20757e4a003488373/AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7b1a981467a5280f80bc00b6d49354ef/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3d717b7cd9ed2d4f9cf0937d5b477258/AndroidManifest.xml:17:1-25:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/021a8f73214169a1cff096e05175ca6e/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f8a941367cb91c25b4e9ba5ba826b82b/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8c77e4a114a50d70fa85d02d07fca462/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e5006457e6c38ed10163e4cdb47470f0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/93917735672a927fcceebedfad80c193/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/fb95aa684e1bead21bfcb5744a262d24/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1ce20af56bca44d8721cb68b1053355f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/4d6cd8db6e829cdac9ff5e2732dc1a94/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\55a1cddd2980d875d694338f1db69bde\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7128a3e25d3469cdc59d3f3b08f0aef7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\49bdb19d332e7060ce7e2ed73aa01a0e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\97fc768cfd18eccb7478fa658686120a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\478c9f66f5d2b519518ea2db38bbeefc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d5b52dde6ca6b3ab21c4b302c3e26adf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1c6f16dd8991df1a8afce4f490ee2b06\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\465ac9bf22a909a5d5e1e83109bbcb29\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\657a4a14484dfcb8c568fc821ebce1c5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\76c31d6957ae5c5b511007b6074de195\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\751d2953a3c218f4c4f7f906f05b75ee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\c9272953e8f35ac9d00002838f8f2bff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ee98c99cdef1cc3337942a52482eccdc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\70d4cbac02fcd256995c6a86078d20ce\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\15fa6241404282ef439eaa53ead253f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\9349f95413c2e01f2a1261fede92b14a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\ec0ff481c6cbd0b9ee456eb6df81e70a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\98312dcc430d4f56692a10b7b7459796\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\1376e97408c9180f7173a3e84ea7f512\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\7c3b5a1522386ee7d79bffa68cc55072\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\5b6ac445e1b9cc4b282e479e97727eb0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\bcb9b839a7ef1dae08ce31edd1761acf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6b551e0754d969cbd8079ab48fd59a61\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e4503c4ade9b909c499132ccb26792e6\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d4690c904088929e411801bda1caed1a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9cbbe6de0a134733d840fe3d05e118b2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\101d8b37c6254743a88d2f6b3931b5ba\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c090a276b6b9d960b95a5fb0d99cb8c6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0c7df1d9b29b0f88df239a577d623c15\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\67cfeaebb562365e1613d3e04ad4bc6f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\b76c3df7a48b09f658397b754f98ed9b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\2b716fb32a3b5550cf40e2483b519b48\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\dabeee17676437cb0706434f5a5f8247\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:3:5-51
-		INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:3:5-51
+		INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:2:1-32:12
-		INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:2:1-32:12
+		INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:2:1-32:12
-		INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:2:1-32:12
+		INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:6:5-71
+ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:6:5-71
 	android:name
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:6:22-68
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:6:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:7:5-71
+ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:7:5-71
 	android:name
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:7:22-68
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:7:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:8:5-72
+ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:8:5-72
 	android:name
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:8:22-69
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:8:22-69
 application
-ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:10:5-30:19
-MERGED from [com.android.support:design:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/ee53614f8ba6190422a877992bc90f95/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/ee53614f8ba6190422a877992bc90f95/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/c395c70e1128a051fa420e912d18af40/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/c395c70e1128a051fa420e912d18af40/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/804baf8aadc6c1f20757e4a003488373/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/804baf8aadc6c1f20757e4a003488373/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3d717b7cd9ed2d4f9cf0937d5b477258/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3d717b7cd9ed2d4f9cf0937d5b477258/AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:10:5-30:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\55a1cddd2980d875d694338f1db69bde\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\55a1cddd2980d875d694338f1db69bde\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\97fc768cfd18eccb7478fa658686120a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\97fc768cfd18eccb7478fa658686120a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6b551e0754d969cbd8079ab48fd59a61\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6b551e0754d969cbd8079ab48fd59a61\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e4503c4ade9b909c499132ccb26792e6\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e4503c4ade9b909c499132ccb26792e6\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/804baf8aadc6c1f20757e4a003488373/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6b551e0754d969cbd8079ab48fd59a61\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:14:9-54
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:16:9-40
 activity#com.bignerdranch.android.pantryparty.LoginActivity
-ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:17:9-25:20
+ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:17:9-25:20
 	android:label
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:19:13-45
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:19:13-45
 	android:name
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:18:13-42
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:18:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:23:27-74
 activity#com.bignerdranch.android.pantryparty.TacoRecipe
-ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:26:9-29:68
+ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:26:9-29:59
 	android:label
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:28:13-63
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:28:13-63
 	android:theme
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:29:13-56
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:29:13-56
 	android:name
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml:27:13-39
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:27:13-39
 uses-sdk
-INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
-INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/ee53614f8ba6190422a877992bc90f95/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/ee53614f8ba6190422a877992bc90f95/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bc63a5a03b2f56b6cc0230509fb99258/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bc63a5a03b2f56b6cc0230509fb99258/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/c395c70e1128a051fa420e912d18af40/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/c395c70e1128a051fa420e912d18af40/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/383ddf6070c129fe249fe742cc73ffe3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/383ddf6070c129fe249fe742cc73ffe3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/cac926b55e9b8b9cf822502e6cc20038/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/cac926b55e9b8b9cf822502e6cc20038/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8653b0ad2fa339270b5897e54309ffe7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8653b0ad2fa339270b5897e54309ffe7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/52eca8fe4fd2ca9b96dbd6c32caa8e1e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/52eca8fe4fd2ca9b96dbd6c32caa8e1e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/dd3228c40989bc6ae63becb1abbc95a6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/dd3228c40989bc6ae63becb1abbc95a6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/e67e7200d52d537642839ca6d085dfa4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/e67e7200d52d537642839ca6d085dfa4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9155ca7dc6d397697b7f7f5ecc964869/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9155ca7dc6d397697b7f7f5ecc964869/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/638554a41b2d62882eaa40cee5b871a0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/638554a41b2d62882eaa40cee5b871a0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/d6b31d067fe2b06513565cea98e53fe0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/d6b31d067fe2b06513565cea98e53fe0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/0c5f26cd7d7acb3597a818e7498d737b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/0c5f26cd7d7acb3597a818e7498d737b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/29f20e79fc40ffc6ca0850936fc0b24f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/29f20e79fc40ffc6ca0850936fc0b24f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e666b4e50ac68c6a92de2c637bd33d43/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e666b4e50ac68c6a92de2c637bd33d43/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/37fcc88942ef53e77a3376c02caf36b4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/37fcc88942ef53e77a3376c02caf36b4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/79f93c2fd9a930ddddb7361fedccf707/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/79f93c2fd9a930ddddb7361fedccf707/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d3a5f53df0fbe9ee2634d928846fd4e9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d3a5f53df0fbe9ee2634d928846fd4e9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/30321c0c4072053855bf4889a0d7662c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/30321c0c4072053855bf4889a0d7662c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/421a6fa52d72b15348ea506513579ba7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/421a6fa52d72b15348ea506513579ba7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/804baf8aadc6c1f20757e4a003488373/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/804baf8aadc6c1f20757e4a003488373/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7b1a981467a5280f80bc00b6d49354ef/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7b1a981467a5280f80bc00b6d49354ef/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3d717b7cd9ed2d4f9cf0937d5b477258/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3d717b7cd9ed2d4f9cf0937d5b477258/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/021a8f73214169a1cff096e05175ca6e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/021a8f73214169a1cff096e05175ca6e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f8a941367cb91c25b4e9ba5ba826b82b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f8a941367cb91c25b4e9ba5ba826b82b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8c77e4a114a50d70fa85d02d07fca462/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8c77e4a114a50d70fa85d02d07fca462/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e5006457e6c38ed10163e4cdb47470f0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/e5006457e6c38ed10163e4cdb47470f0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/93917735672a927fcceebedfad80c193/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/93917735672a927fcceebedfad80c193/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/fb95aa684e1bead21bfcb5744a262d24/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/fb95aa684e1bead21bfcb5744a262d24/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1ce20af56bca44d8721cb68b1053355f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1ce20af56bca44d8721cb68b1053355f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/4d6cd8db6e829cdac9ff5e2732dc1a94/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/alytroy/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/4d6cd8db6e829cdac9ff5e2732dc1a94/AndroidManifest.xml:20:5-44
-INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
-INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
+INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\55a1cddd2980d875d694338f1db69bde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\55a1cddd2980d875d694338f1db69bde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7128a3e25d3469cdc59d3f3b08f0aef7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7128a3e25d3469cdc59d3f3b08f0aef7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\49bdb19d332e7060ce7e2ed73aa01a0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\49bdb19d332e7060ce7e2ed73aa01a0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\97fc768cfd18eccb7478fa658686120a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\97fc768cfd18eccb7478fa658686120a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\478c9f66f5d2b519518ea2db38bbeefc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\478c9f66f5d2b519518ea2db38bbeefc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d5b52dde6ca6b3ab21c4b302c3e26adf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\d5b52dde6ca6b3ab21c4b302c3e26adf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1c6f16dd8991df1a8afce4f490ee2b06\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\1c6f16dd8991df1a8afce4f490ee2b06\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\465ac9bf22a909a5d5e1e83109bbcb29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\465ac9bf22a909a5d5e1e83109bbcb29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\657a4a14484dfcb8c568fc821ebce1c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\657a4a14484dfcb8c568fc821ebce1c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\76c31d6957ae5c5b511007b6074de195\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\76c31d6957ae5c5b511007b6074de195\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\751d2953a3c218f4c4f7f906f05b75ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\751d2953a3c218f4c4f7f906f05b75ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\c9272953e8f35ac9d00002838f8f2bff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\c9272953e8f35ac9d00002838f8f2bff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ee98c99cdef1cc3337942a52482eccdc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ee98c99cdef1cc3337942a52482eccdc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\70d4cbac02fcd256995c6a86078d20ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\70d4cbac02fcd256995c6a86078d20ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\15fa6241404282ef439eaa53ead253f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\15fa6241404282ef439eaa53ead253f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\9349f95413c2e01f2a1261fede92b14a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\9349f95413c2e01f2a1261fede92b14a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\ec0ff481c6cbd0b9ee456eb6df81e70a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\ec0ff481c6cbd0b9ee456eb6df81e70a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\98312dcc430d4f56692a10b7b7459796\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\98312dcc430d4f56692a10b7b7459796\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\1376e97408c9180f7173a3e84ea7f512\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\1376e97408c9180f7173a3e84ea7f512\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\7c3b5a1522386ee7d79bffa68cc55072\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\7c3b5a1522386ee7d79bffa68cc55072\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\5b6ac445e1b9cc4b282e479e97727eb0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\5b6ac445e1b9cc4b282e479e97727eb0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\bcb9b839a7ef1dae08ce31edd1761acf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\bcb9b839a7ef1dae08ce31edd1761acf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6b551e0754d969cbd8079ab48fd59a61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6b551e0754d969cbd8079ab48fd59a61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e4503c4ade9b909c499132ccb26792e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e4503c4ade9b909c499132ccb26792e6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d4690c904088929e411801bda1caed1a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d4690c904088929e411801bda1caed1a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9cbbe6de0a134733d840fe3d05e118b2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9cbbe6de0a134733d840fe3d05e118b2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\101d8b37c6254743a88d2f6b3931b5ba\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\101d8b37c6254743a88d2f6b3931b5ba\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c090a276b6b9d960b95a5fb0d99cb8c6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\c090a276b6b9d960b95a5fb0d99cb8c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0c7df1d9b29b0f88df239a577d623c15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0c7df1d9b29b0f88df239a577d623c15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\67cfeaebb562365e1613d3e04ad4bc6f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\67cfeaebb562365e1613d3e04ad4bc6f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\b76c3df7a48b09f658397b754f98ed9b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\b76c3df7a48b09f658397b754f98ed9b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\2b716fb32a3b5550cf40e2483b519b48\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\2b716fb32a3b5550cf40e2483b519b48\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\dabeee17676437cb0706434f5a5f8247\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Maggie Floyd\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\dabeee17676437cb0706434f5a5f8247\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml

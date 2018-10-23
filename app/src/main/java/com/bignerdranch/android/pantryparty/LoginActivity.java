@@ -3,6 +3,7 @@ package com.bignerdranch.android.pantryparty;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -133,7 +134,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         if (user != null) {
             if (user.getPassword().equals(mPasswordView.getText().toString())) {
-                    messageResId = R.string.correct_toast;
+                messageResId = R.string.correct_toast;
+                startActivity(new Intent(LoginActivity.this, TacoRecipe.class));
             }
             else {
                 messageResId = R.string.wrong_pass_toast;
@@ -401,4 +403,3 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         }
     }
 }
-

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/alytroy/AndroidStudioProjects/CS4800-Pantry-Party/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/alytroy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/bc63a5a03b2f56b6cc0230509fb99258/res/values-night-v8/values-night-v8.xml",
+                    "source": "C:\\Users\\Maggie Floyd\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7128a3e25d3469cdc59d3f3b08f0aef7\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
