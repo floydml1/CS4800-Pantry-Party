@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
+<<<<<<< HEAD
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="26"
     build-mode="COLD"
@@ -7,25 +8,46 @@
     format="10"
     plugin-version="3.1.4"
     timestamp="1541539562610"
+=======
+    abi="x86"
+    api-level="28"
+    build-mode="FULL"
+    density="420dpi"
+    format="10"
+    plugin-version="3.1.4"
+    timestamp="1541520020759"
+>>>>>>> a6f6757bc57ad1636070bbe83ef9eb0909ecb982
     token="8811558527019643038"
     verifier="FIELD_REMOVED" >
 
     <task
         name="javac"
+<<<<<<< HEAD
         duration="604" />
+=======
+        duration="872" />
+>>>>>>> a6f6757bc57ad1636070bbe83ef9eb0909ecb982
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
+<<<<<<< HEAD
         duration="63" />
     <task
         name="verifier"
         duration="12" />
+=======
+        duration="213" />
+    <task
+        name="verifier"
+        duration="76" />
+>>>>>>> a6f6757bc57ad1636070bbe83ef9eb0909ecb982
 
     <artifact
-        location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
+<<<<<<< HEAD
 
     <build
         build-mode="FULL"
@@ -45,9 +67,132 @@
             type="SPLIT" />
         <artifact
             location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+=======
+    <artifact
+        location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1541520020759"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+>>>>>>> a6f6757bc57ad1636070bbe83ef9eb0909ecb982
             type="SPLIT" />
         <artifact
             location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+<<<<<<< HEAD
+            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+=======
+            location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -56,19 +201,33 @@
             location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+>>>>>>> a6f6757bc57ad1636070bbe83ef9eb0909ecb982
             type="SPLIT" />
         <artifact
             location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
+<<<<<<< HEAD
             location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+=======
+            location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+>>>>>>> a6f6757bc57ad1636070bbe83ef9eb0909ecb982
             type="SPLIT" />
         <artifact
             location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            location="C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build

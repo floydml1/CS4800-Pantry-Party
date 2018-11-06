@@ -13,6 +13,12 @@
     <string name="prompt_test_instructions">instructions</string> //test
     <string name="prompt_test_serving_size">serving_size</string> //test
 
+    //menu buttons
+    <string name="action_view_recipes">View Recipes</string>
+    <string name="action_search_recipes">Search Recipes</string>
+    <string name="action_add_recipe">Add Recipe</string>
+    <string name="action_favorites">Favorites</string>
+
     <!-- Buttons -->
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_register">Register</string>
