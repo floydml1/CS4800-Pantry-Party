@@ -36,6 +36,8 @@
             android:name="com.bignerdranch.android.pantryparty.TacoRecipe"
             android:label="@string/title_activity_taco_recipe"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.bignerdranch.android.pantryparty.TestActivity" />
+        <activity android:name="com.bignerdranch.android.pantryparty.TestAddActivity" />
     </application>
 
 </manifest>

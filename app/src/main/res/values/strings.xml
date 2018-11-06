@@ -4,9 +4,25 @@
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
+    <string name="prompt_test_input">Test Input</string> //test
+    <string name="prompt_test_column">Test Column</string> //test
+
+    <string name="prompt_test_id">id</string> //test
+    <string name="prompt_test_recipe_name">recipe name</string> //test
+    <string name="prompt_test_category">category</string> //test
+    <string name="prompt_test_total_time">total time</string> //test
+    <string name="prompt_test_ingredients">ingredients</string> //test
+    <string name="prompt_test_instructions">instructions</string> //test
+    <string name="prompt_test_serving_size">serving_size</string> //test
+
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_register">Register</string>
     <string name="action_sign_in_short">Sign in</string>
+    <string name="action_test_add">Add</string> //test
+    <string name="action_test_search">Search</string> //test
+    <string name="action_test_remove">Remove</string> //test
+    <string name="wrong_format_toast">Must be an "id" to remove</string> //test
+    <string name="correct_delete">Deleted Successfully</string> //test
     <string name="correct_toast">Match Found</string>
     <string name="incorrect_toast">No Match Found</string>
     <string name="wrong_pass_toast">Incorrect Password</string>

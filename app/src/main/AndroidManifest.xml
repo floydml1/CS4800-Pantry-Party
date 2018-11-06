@@ -27,6 +27,8 @@
             android:name=".TacoRecipe"
             android:label="@string/title_activity_taco_recipe"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".TestAddActivity"></activity>
     </application>
 
 </manifest>
