@@ -1,4 +1,4 @@
-#Mon Nov 05 22:04:45 EST 2018
+#Tue Nov 06 15:55:53 EST 2018
 base.0=C\:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
 path.0=classes.dex
 renamed.0=classes.dex
