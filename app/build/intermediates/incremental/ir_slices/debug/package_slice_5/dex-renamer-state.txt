@@ -1,4 +1,4 @@
-#Mon Nov 05 22:12:43 EST 2018
-base.0=C\:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+#Tue Nov 06 11:00:26 EST 2018
+base.0=C\:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
 path.0=classes.dex
 renamed.0=classes.dex

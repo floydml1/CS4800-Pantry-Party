@@ -32,7 +32,7 @@ public class RecipeDBHandler extends SQLiteOpenHelper {
                 + COLUMN_ID + " INTEGER PRIMARY KEY,"
                 + COLUMN_RECIPE_NAME + " TEXT,"
                 + COLUMN_CATEGORY + " TEXT,"
-                + COLUMN_TOTAL_TIME + " INTEGER,"
+                + COLUMN_TOTAL_TIME + " INTEGER," //time in minutes 
                 + COLUMN_INGREDIENTS + " TEXT,"
                 + COLUMN_INSTRUCTIONS + " TEXT,"
                 + COLUMN_SERVING_SIZE + " INTEGER" + ")";
