@@ -123,7 +123,7 @@ ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\s
 	android:name
 		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:31:19-50
 activity#com.bignerdranch.android.pantryparty.MenuActivity
-ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:32:9-59
+ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:32:9-50
 	android:name
 		ADDED from C:\Users\Maggie Floyd\AndroidStudioProjects\CS4800-Pantry-Party\app\src\main\AndroidManifest.xml:32:19-47
 uses-sdk

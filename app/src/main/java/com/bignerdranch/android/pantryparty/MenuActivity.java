@@ -17,7 +17,7 @@ public class MenuActivity extends AppCompatActivity {
         mViewRecipeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MenuActivity.this, ViewRecipesActivity.class));
+                startActivity(new Intent(MenuActivity.this, TestAddActivity.class));
                 //need ViewRecipesActivity
             }
         });
@@ -34,7 +34,7 @@ public class MenuActivity extends AppCompatActivity {
         mAddRecipeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MenuActivity.this, SearchRecipesActivity.class));
+                startActivity(new Intent(MenuActivity.this, TestAddActivity.class));
                 //need SearchRecipesActivity
             }
         });
@@ -43,11 +43,13 @@ public class MenuActivity extends AppCompatActivity {
         mAddRecipeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MenuActivity.this, FavoritesActivity.class));
+                startActivity(new Intent(MenuActivity.this, TestAddActivity.class));
                 //need FavoritesActivity
             }
         });
 
 
     }
+
+
 }
