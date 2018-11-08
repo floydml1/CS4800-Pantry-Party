@@ -64,26 +64,16 @@
         "source": "C:\\Users\\Maggie Floyd\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\55a1cddd2980d875d694338f1db69bde\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_bottom_nav_colored_item_tint.xml.flat",
-        "source": "C:\\Users\\Evangeline\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\590e2e17d8ea7e5ddaad739b30fdf346\\res\\color\\mtrl_bottom_nav_colored_item_tint.xml"
-=======
         "merged": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_radio_material.xml.flat",
         "source": "C:\\Users\\Maggie Floyd\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7128a3e25d3469cdc59d3f3b08f0aef7\\res\\drawable\\abc_btn_radio_material.xml"
->>>>>>> a6f6757bc57ad1636070bbe83ef9eb0909ecb982
     },
     {
         "merged": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
         "source": "C:\\Users\\Maggie Floyd\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7128a3e25d3469cdc59d3f3b08f0aef7\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mtrl_snackbar_background.xml.flat",
-        "source": "C:\\Users\\Evangeline\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\590e2e17d8ea7e5ddaad739b30fdf346\\res\\drawable\\mtrl_snackbar_background.xml"
-=======
         "merged": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
->>>>>>> a6f6757bc57ad1636070bbe83ef9eb0909ecb982
     },
     {
         "merged": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -1098,18 +1088,6 @@
         "source": "C:\\Users\\Maggie Floyd\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7128a3e25d3469cdc59d3f3b08f0aef7\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test_add.xml.flat",
-        "source": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\src\\main\\res\\layout\\activity_test_add.xml"
-    },
-    {
-        "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_default.xml.flat",
-        "source": "C:\\Users\\Evangeline\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2512e653db1c7ff50be1fda2f7d7c678\\res\\color-v23\\abc_tint_default.xml"
-    },
-    {
-        "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Evangeline\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2512e653db1c7ff50be1fda2f7d7c678\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-=======
         "merged": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\anim_design_bottom_sheet_slide_out.xml.flat",
         "source": "C:\\Users\\Maggie Floyd\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\55a1cddd2980d875d694338f1db69bde\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
@@ -1120,7 +1098,6 @@
     {
         "merged": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
->>>>>>> a6f6757bc57ad1636070bbe83ef9eb0909ecb982
     },
     {
         "merged": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -1695,12 +1672,12 @@
         "source": "C:\\Users\\Maggie Floyd\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7128a3e25d3469cdc59d3f3b08f0aef7\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\Maggie Floyd\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6b551e0754d969cbd8079ab48fd59a61\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_default.xml.flat",
@@ -1847,12 +1824,12 @@
         "source": "C:\\Users\\Maggie Floyd\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7128a3e25d3469cdc59d3f3b08f0aef7\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Maggie Floyd\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7128a3e25d3469cdc59d3f3b08f0aef7\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_menu.xml.flat",
         "source": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Maggie Floyd\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7128a3e25d3469cdc59d3f3b08f0aef7\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",

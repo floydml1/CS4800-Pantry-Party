@@ -6,6 +6,7 @@
     <string name="prompt_password">Password</string>
     <string name="prompt_test_input">Test Input</string> //test
     <string name="prompt_test_column">Test Column</string> //test
+    <string name="prompt_test_id">id</string>
     <string name="prompt_test_recipe_name">recipe name</string> //test
     <string name="prompt_test_category">category</string> //test
     <string name="prompt_test_total_time">total time (min)</string> //test
