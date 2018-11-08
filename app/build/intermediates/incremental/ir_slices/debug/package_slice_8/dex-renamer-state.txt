@@ -1,4 +1,9 @@
+<<<<<<< HEAD
+#Tue Nov 06 15:55:53 EST 2018
+base.0=C\:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+=======
 #Tue Nov 06 10:59:52 EST 2018
 base.0=C\:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+>>>>>>> a6f6757bc57ad1636070bbe83ef9eb0909ecb982
 path.0=classes.dex
 renamed.0=classes.dex

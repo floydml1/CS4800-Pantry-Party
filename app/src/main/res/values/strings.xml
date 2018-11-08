@@ -1,13 +1,17 @@
 <resources>
     <string name="app_name">Pantry Party</string>
 
-    <!-- Strings related to login -->
+    <!-- Prompt Strings for Text Boxes -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
-    <string name="prompt_test_input">Test Input</string>
-    //test
-    <string name="prompt_test_column">Test Column</string>
-    //test
+    <string name="prompt_test_input">Test Input</string> //test
+    <string name="prompt_test_column">Test Column</string> //test
+    <string name="prompt_test_recipe_name">recipe name</string> //test
+    <string name="prompt_test_category">category</string> //test
+    <string name="prompt_test_total_time">total time (min)</string> //test
+    <string name="prompt_test_ingredients">ingredients</string> //test
+    <string name="prompt_test_instructions">instructions</string> //test
+    <string name="prompt_test_serving_size">serving_size</string> //test
 
     //menu buttons
     <string name="action_view_recipes">View Recipes</string>
@@ -15,38 +19,23 @@
     <string name="action_add_recipe">Add Recipe</string>
     <string name="action_favorites">Favorites</string>
 
-
-    <string name="prompt_test_id">id</string>
-    //test
-    <string name="prompt_test_recipe_name">recipe name</string>
-    //test
-    <string name="prompt_test_category">category</string>
-    //test
-    <string name="prompt_test_total_time">total time</string>
-    //test
-    <string name="prompt_test_ingredients">ingredients</string>
-    //test
-    <string name="prompt_test_instructions">instructions</string>
-    //test
-    <string name="prompt_test_serving_size">serving_size</string>
-    //test
-
+    <!-- Buttons -->
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_register">Register</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="action_test_add">Add</string>
-    //test
-    <string name="action_test_search">Search</string>
-    //test
-    <string name="action_test_remove">Remove</string>
-    //test
-    <string name="wrong_format_toast">Must be an "id" to remove</string>
-    //test
-    <string name="correct_delete">Deleted Successfully</string>
-    //test
+    <string name="action_test_add">Add</string> //test
+    <string name="action_test_search">Search</string> //test
+    <string name="action_test_remove">Remove</string> //test
+
+    <!-- Toasts -->
+    <string name="wrong_format_toast">Must be an "id" to remove</string> //test
+    <string name="correct_delete">Deleted Successfully</string> //test
+    <string name="correct_add">Added Successfully</string>
     <string name="correct_toast">Match Found</string>
     <string name="incorrect_toast">No Match Found</string>
     <string name="wrong_pass_toast">Incorrect Password</string>
+
+    <!-- are these used? -->
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
@@ -54,6 +43,8 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+
+
     <string name="title_activity_taco_recipe">TacoRecipe</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -144,6 +135,10 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+    <string name="add_instructions">Fill in the categories below. Do not include measurements or units. For fields that require more than one input, separate by commas.</string>
+    <string name="search_by_pantry_title">Enter Pantry Items!</string>
+    <string name="search_by_pantry_instructions">Separate entries by commas.</string>
+
     <string name="action_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>

@@ -14,11 +14,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Random;
+
 public class TestAddActivity extends AppCompatActivity {
 
 
     // UI references.
-    private EditText mIdView;
     private EditText mRecipeNameView;
     private EditText mCategoryView;
     private EditText mTotalTimeView;
@@ -33,7 +34,6 @@ public class TestAddActivity extends AppCompatActivity {
         setContentView(R.layout.activity_test_add);
 
         // Set up the test form.
-        mIdView = (EditText) findViewById(R.id.id);
         mRecipeNameView = (EditText) findViewById(R.id.recipe_name);
         mCategoryView = (EditText) findViewById(R.id.category);
         mTotalTimeView = (EditText) findViewById(R.id.total_time);
@@ -55,9 +55,15 @@ public class TestAddActivity extends AppCompatActivity {
     public void add(View view) {
 
         RecipeDBHandler dbHandler = new RecipeDBHandler(this, null, null, 1);
+        int messageResId = 0;
+
+        Random rand = new Random();
+
+        // Generate random integers in range 0 to 999,999
+        int mId = rand.nextInt(999999);
 
         Recipe recipe =
-                new Recipe(Integer.parseInt(mIdView.getText().toString()),
+                new Recipe(mId,
                         mRecipeNameView.getText().toString(),
                         mCategoryView.getText().toString(),
                         Integer.parseInt(mTotalTimeView.getText().toString()),
@@ -66,6 +72,11 @@ public class TestAddActivity extends AppCompatActivity {
                         Integer.parseInt(mServingSizeView.getText().toString()));
 
         dbHandler.addRecipe(recipe);
+        messageResId = R.string.correct_add;
+        Toast toastTrue = Toast.makeText(this, messageResId,
+                Toast.LENGTH_SHORT);
+        toastTrue.setGravity(Gravity.TOP, 0, 0);
+        toastTrue.show();
     }
 
 }
