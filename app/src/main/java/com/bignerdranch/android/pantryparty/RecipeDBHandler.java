@@ -5,6 +5,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.content.Context;
 import android.content.ContentValues;
 import android.database.Cursor;
+import android.util.Log;
 
 public class RecipeDBHandler extends SQLiteOpenHelper {
 
@@ -19,6 +20,9 @@ public class RecipeDBHandler extends SQLiteOpenHelper {
     public static final String COLUMN_INGREDIENTS = "ingredients";
     public static final String COLUMN_INSTRUCTIONS = "instructions";
     public static final String COLUMN_SERVING_SIZE = "servingSize";
+
+    //debugging
+    private static final String TAG = "RecipeDBHandler";
 
     public RecipeDBHandler(Context context, String name,
                        SQLiteDatabase.CursorFactory factory, int version) {
@@ -75,8 +79,9 @@ public class RecipeDBHandler extends SQLiteOpenHelper {
      *                  If NULL, then no recipe was found w/ the given input under
      *                  the selected column.
      */
-    public Recipe findRecipe(String input, String column) {
+    public Recipe[] findRecipe(String input, String column) {
         String columnTitle = null;
+        Recipe[] recipeArray = new Recipe[30];
         if (column.equals(COLUMN_ID)) {
             columnTitle = COLUMN_ID;
         }
@@ -117,12 +122,25 @@ public class RecipeDBHandler extends SQLiteOpenHelper {
             recipe.setIngredients(cursor.getString(4));
             recipe.setInstructions(cursor.getString(5));
             recipe.setServingSize(Integer.parseInt(cursor.getString(6)));
+            recipeArray[0] = recipe;
+            int i = 1;
+            while (cursor.moveToNext()) {
+                //cursor.moveToNext();
+                Log.d(TAG, "Cursor found another recipe");
+                recipe.setId(Integer.parseInt(cursor.getString(0)));
+                recipe.setRecipeName(cursor.getString(1));
+                recipe.setCategory(cursor.getString(2));
+                recipe.setTotalTime(Integer.parseInt(cursor.getString(3)));
+                recipe.setIngredients(cursor.getString(4));
+                recipe.setInstructions(cursor.getString(5));
+                recipe.setServingSize(Integer.parseInt(cursor.getString(6)));
+                recipeArray[i] = recipe;
+                i++;
+            }
+            Log.d(TAG, "finished properly");
             cursor.close();
-        } else {
-            recipe = null;
         }
-        db.close();
-        return recipe;
+        return recipeArray;
     }
 
     public boolean deleteRecipe(int id) {

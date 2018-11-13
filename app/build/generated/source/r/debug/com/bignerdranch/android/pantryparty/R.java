@@ -2674,7 +2674,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -5107,37 +5107,38 @@ public final class R {
     public static final int incorrect_toast=0x7f0e0042;
     public static final int large_text=0x7f0e0043;
     public static final int mtrl_chip_close_icon_content_description=0x7f0e0044;
-    public static final int nav_header_desc=0x7f0e0045;
-    public static final int nav_header_subtitle=0x7f0e0046;
-    public static final int nav_header_title=0x7f0e0047;
-    public static final int navigation_drawer_close=0x7f0e0048;
-    public static final int navigation_drawer_open=0x7f0e0049;
-    public static final int password_toggle_content_description=0x7f0e004a;
-    public static final int path_password_eye=0x7f0e004b;
-    public static final int path_password_eye_mask_strike_through=0x7f0e004c;
-    public static final int path_password_eye_mask_visible=0x7f0e004d;
-    public static final int path_password_strike_through=0x7f0e004e;
-    public static final int permission_rationale=0x7f0e004f;
-    public static final int prompt_add_pantry_item=0x7f0e0050;
-    public static final int prompt_email=0x7f0e0051;
-    public static final int prompt_password=0x7f0e0052;
-    public static final int prompt_test_category=0x7f0e0053;
-    public static final int prompt_test_column=0x7f0e0054;
-    public static final int prompt_test_id=0x7f0e0055;
-    public static final int prompt_test_ingredients=0x7f0e0056;
-    public static final int prompt_test_input=0x7f0e0057;
-    public static final int prompt_test_instructions=0x7f0e0058;
-    public static final int prompt_test_recipe_name=0x7f0e0059;
-    public static final int prompt_test_serving_size=0x7f0e005a;
-    public static final int prompt_test_total_time=0x7f0e005b;
-    public static final int search_by_pantry_instructions=0x7f0e005c;
-    public static final int search_by_pantry_title=0x7f0e005d;
-    public static final int search_menu_title=0x7f0e005e;
-    public static final int status_bar_notification_info_overflow=0x7f0e005f;
-    public static final int title_activity_main=0x7f0e0060;
-    public static final int title_activity_taco_recipe=0x7f0e0061;
-    public static final int wrong_format_toast=0x7f0e0062;
-    public static final int wrong_pass_toast=0x7f0e0063;
+    public static final int multiple_correct_toast=0x7f0e0045;
+    public static final int nav_header_desc=0x7f0e0046;
+    public static final int nav_header_subtitle=0x7f0e0047;
+    public static final int nav_header_title=0x7f0e0048;
+    public static final int navigation_drawer_close=0x7f0e0049;
+    public static final int navigation_drawer_open=0x7f0e004a;
+    public static final int password_toggle_content_description=0x7f0e004b;
+    public static final int path_password_eye=0x7f0e004c;
+    public static final int path_password_eye_mask_strike_through=0x7f0e004d;
+    public static final int path_password_eye_mask_visible=0x7f0e004e;
+    public static final int path_password_strike_through=0x7f0e004f;
+    public static final int permission_rationale=0x7f0e0050;
+    public static final int prompt_add_pantry_item=0x7f0e0051;
+    public static final int prompt_email=0x7f0e0052;
+    public static final int prompt_password=0x7f0e0053;
+    public static final int prompt_test_category=0x7f0e0054;
+    public static final int prompt_test_column=0x7f0e0055;
+    public static final int prompt_test_id=0x7f0e0056;
+    public static final int prompt_test_ingredients=0x7f0e0057;
+    public static final int prompt_test_input=0x7f0e0058;
+    public static final int prompt_test_instructions=0x7f0e0059;
+    public static final int prompt_test_recipe_name=0x7f0e005a;
+    public static final int prompt_test_serving_size=0x7f0e005b;
+    public static final int prompt_test_total_time=0x7f0e005c;
+    public static final int search_by_pantry_instructions=0x7f0e005d;
+    public static final int search_by_pantry_title=0x7f0e005e;
+    public static final int search_menu_title=0x7f0e005f;
+    public static final int status_bar_notification_info_overflow=0x7f0e0060;
+    public static final int title_activity_main=0x7f0e0061;
+    public static final int title_activity_taco_recipe=0x7f0e0062;
+    public static final int wrong_format_toast=0x7f0e0063;
+    public static final int wrong_pass_toast=0x7f0e0064;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0f0000;
@@ -11640,7 +11641,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>

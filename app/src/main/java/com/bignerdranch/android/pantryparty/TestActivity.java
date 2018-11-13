@@ -80,12 +80,17 @@ public class TestActivity extends AppCompatActivity {
         RecipeDBHandler dbHandler = new RecipeDBHandler(this, null, null, 1);
         int messageResId = 0;
 
-        Recipe recipe =
+        Recipe[] recipeArray =
                 dbHandler.findRecipe(mInputView.getText().toString(), mColumnView.getText().toString());
 
-        if (recipe != null) {
-                messageResId = R.string.correct_toast;
-        } else {
+        if (recipeArray[0] != null) {
+            messageResId = R.string.correct_toast;
+            if(recipeArray[1] != null) {
+                messageResId = R.string.multiple_correct_toast;
+            }
+        }
+        else
+        {
             messageResId = R.string.incorrect_toast;
         }
         Toast toastTrue = Toast.makeText(this, messageResId,

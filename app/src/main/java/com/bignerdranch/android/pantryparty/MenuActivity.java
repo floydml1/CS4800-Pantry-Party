@@ -44,7 +44,7 @@ public class MenuActivity extends AppCompatActivity {
         mFavoritesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MenuActivity.this, TestAddActivity.class));
+                startActivity(new Intent(MenuActivity.this, TestActivity.class));
                 //need FavoritesActivity
             }
         });

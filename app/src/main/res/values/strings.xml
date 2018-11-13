@@ -48,6 +48,7 @@
     <string name="correct_add">Added Successfully</string>
     <string name="correct_toast">Match Found</string>
     <string name="incorrect_toast">No Match Found</string>
+    <string name="multiple_correct_toast">Multiple Entries Found</string>
     <string name="wrong_pass_toast">Incorrect Password</string>
 
     <!-- are these used? -->
