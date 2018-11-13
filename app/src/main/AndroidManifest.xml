@@ -32,7 +32,9 @@
         <activity android:name=".MenuActivity" />
         <activity android:name=".SearchRecipeByIngredActivty" />
         <activity android:name=".SearchRecipeByIngredActivity" />
-        <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".ViewRecipesActivity" />
+        <activity android:name=".ViewActivity"></activity>
     </application>
 
 </manifest>

@@ -42,6 +42,8 @@
         <activity android:name="com.bignerdranch.android.pantryparty.SearchRecipeByIngredActivty" />
         <activity android:name="com.bignerdranch.android.pantryparty.SearchRecipeByIngredActivity" />
         <activity android:name="com.bignerdranch.android.pantryparty.SearchActivity" />
+        <activity android:name="com.bignerdranch.android.pantryparty.ViewRecipesActivity" />
+        <activity android:name="com.bignerdranch.android.pantryparty.ViewActivity" />
     </application>
 
 </manifest>

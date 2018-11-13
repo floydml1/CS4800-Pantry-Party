@@ -19,7 +19,7 @@
     //test
     <string name="prompt_test_instructions">instructions</string>
     //test
-    <string name="prompt_test_serving_size">serving_size</string>
+    <string name="prompt_test_serving_size">serving size</string>
     //test
     <string name="prompt_add_pantry_item">Pantry Items</string>
 
