@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_menu_top.png.flat",
+        "source": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\src\\main\\res\\drawable-v24\\menu_top.png"
+    },
+    {
         "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_header_item_layout.xml.flat",
         "source": "C:\\Users\\Evangeline\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2512e653db1c7ff50be1fda2f7d7c678\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
@@ -676,6 +680,10 @@
         "source": "C:\\Users\\Evangeline\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2512e653db1c7ff50be1fda2f7d7c678\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_homescreen.png.flat",
+        "source": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\src\\main\\res\\drawable-v24\\homescreen.png"
+    },
+    {
         "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\Evangeline\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\46cdc9495cea185d054a6f74a7dbb153\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
     },
@@ -770,6 +778,10 @@
     {
         "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\interpolator-v21_mtrl_linear_out_slow_in.xml.flat",
         "source": "C:\\Users\\Evangeline\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\590e2e17d8ea7e5ddaad739b30fdf346\\res\\interpolator-v21\\mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_food.png.flat",
+        "source": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\src\\main\\res\\drawable-v24\\food.png"
     },
     {
         "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_textfield_search_material.xml.flat",
@@ -1596,6 +1608,10 @@
         "source": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search.xml.flat",
+        "source": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\src\\main\\res\\layout\\activity_search.xml"
+    },
+    {
         "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\Evangeline\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\46cdc9495cea185d054a6f74a7dbb153\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
@@ -2016,6 +2032,10 @@
         "source": "C:\\Users\\Evangeline\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2512e653db1c7ff50be1fda2f7d7c678\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_menu_bottom.png.flat",
+        "source": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\src\\main\\res\\drawable-v24\\menu_bottom.png"
+    },
+    {
         "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_dark.xml.flat",
         "source": "C:\\Users\\Evangeline\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\2512e653db1c7ff50be1fda2f7d7c678\\res\\color\\abc_secondary_text_material_dark.xml"
     },
@@ -2030,5 +2050,9 @@
     {
         "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
         "source": "C:\\Users\\Evangeline\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\46cdc9495cea185d054a6f74a7dbb153\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_favorites.xml.flat",
+        "source": "C:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\src\\main\\res\\layout\\activity_favorites.xml"
     }
 ]

@@ -143,7 +143,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         if (user != null) {
             if (user.getPassword().equals(mPasswordView.getText().toString())) {
                 messageResId = R.string.correct_toast;
-                startActivity(new Intent(LoginActivity.this, TestActivity.class));
+                startActivity(new Intent(LoginActivity.this, MenuActivity.class));
             }
             else {
                 messageResId = R.string.wrong_pass_toast;

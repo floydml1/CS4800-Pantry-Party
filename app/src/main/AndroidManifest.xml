@@ -29,7 +29,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".TestActivity" />
         <activity android:name=".TestAddActivity" />
-        <activity android:name=".MenuActivity"></activity>
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".SearchRecipeByIngredActivty" />
+        <activity android:name=".SearchRecipeByIngredActivity" />
+        <activity android:name=".SearchActivity"></activity>
     </application>
 
 </manifest>

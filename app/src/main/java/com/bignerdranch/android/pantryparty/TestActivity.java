@@ -15,8 +15,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class TestActivity extends AppCompatActivity {
-
-
     // UI references.
     private EditText mInputView;
     private EditText mColumnView;

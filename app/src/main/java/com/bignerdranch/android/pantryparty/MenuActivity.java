@@ -17,8 +17,18 @@ public class MenuActivity extends AppCompatActivity {
         mViewRecipeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MenuActivity.this, ViewRecipesActivity.class));
+                startActivity(new Intent(MenuActivity.this, TestAddActivity.class));
                 //need ViewRecipesActivity
+            }
+        });
+
+
+        Button mSearchRecipeButton = (Button) findViewById(R.id.search_recipes_button);
+        mSearchRecipeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MenuActivity.this, SearchActivity.class));
+                //need SearchRecipesActivity
             }
         });
 
@@ -30,24 +40,17 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
-        Button mSearchRecipeButton = (Button) findViewById(R.id.search_recipes_button);
-        mAddRecipeButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MenuActivity.this, SearchRecipesActivity.class));
-                //need SearchRecipesActivity
-            }
-        });
-
         Button mFavoritesButton = (Button) findViewById(R.id.favorites_button);
-        mAddRecipeButton.setOnClickListener(new View.OnClickListener() {
+        mFavoritesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MenuActivity.this, FavoritesActivity.class));
+                startActivity(new Intent(MenuActivity.this, TestAddActivity.class));
                 //need FavoritesActivity
             }
         });
 
 
     }
+
+
 }

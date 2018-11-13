@@ -38,6 +38,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.bignerdranch.android.pantryparty.TestActivity" />
         <activity android:name="com.bignerdranch.android.pantryparty.TestAddActivity" />
+        <activity android:name="com.bignerdranch.android.pantryparty.MenuActivity" />
+        <activity android:name="com.bignerdranch.android.pantryparty.SearchRecipeByIngredActivty" />
+        <activity android:name="com.bignerdranch.android.pantryparty.SearchRecipeByIngredActivity" />
+        <activity android:name="com.bignerdranch.android.pantryparty.SearchActivity" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
