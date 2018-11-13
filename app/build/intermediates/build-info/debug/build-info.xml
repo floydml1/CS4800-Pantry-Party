@@ -2,30 +2,34 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="26"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="420dpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.4"
-    timestamp="1542134190556"
+    timestamp="1542134569502"
     token="8811558527019643038"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="602" />
+        duration="613" />
     <task
         name="instant-run-dex"
-        duration="64" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="81" />
+        duration="68" />
     <task
         name="verifier"
-        duration="20" />
+        duration="12" />
 
     <artifact
-        location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -74,43 +78,14 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1542133953749"
+        timestamp="1542134569502"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1542134049822"
-        verifier="COMPATIBLE" >
         <artifact
-            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\builds\debug\1542134049822\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1542134095445"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\builds\debug\1542134095445\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1542134171865"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\builds\debug\1542134171865\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1542134190556"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
+            location="C:\Users\Evangeline\StudioProjects\CS4800-Pantry-Party\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

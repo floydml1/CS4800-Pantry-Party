@@ -126,7 +126,7 @@ public class RecipeDBHandler extends SQLiteOpenHelper {
             int i = 1;
             while (cursor.moveToNext()) {
                 //cursor.moveToNext();
-                Log.d(TAG, "Cursor found another recipe");
+                //Log.d(TAG, "Cursor found another recipe");
                 recipe.setId(Integer.parseInt(cursor.getString(0)));
                 recipe.setRecipeName(cursor.getString(1));
                 recipe.setCategory(cursor.getString(2));
@@ -137,7 +137,7 @@ public class RecipeDBHandler extends SQLiteOpenHelper {
                 recipeArray[i] = recipe;
                 i++;
             }
-            Log.d(TAG, "finished properly");
+            //Log.d(TAG, "finished properly");
             cursor.close();
         }
         return recipeArray;

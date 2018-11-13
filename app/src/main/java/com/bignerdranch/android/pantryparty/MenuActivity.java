@@ -17,7 +17,7 @@ public class MenuActivity extends AppCompatActivity {
         mViewRecipeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MenuActivity.this, ViewActivity.class));
+                startActivity(new Intent(MenuActivity.this, TacoRecipe.class));
                 //need ViewRecipesActivity
             }
         });
