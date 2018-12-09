@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
@@ -15,6 +16,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class TestActivity extends AppCompatActivity {
+    private static final String TAG = "SearchActivity";
+
     // UI references.
     private EditText mInputView;
     private EditText mColumnView;
@@ -81,7 +84,13 @@ public class TestActivity extends AppCompatActivity {
         int messageResId = 0;
 
         Recipe[] recipeArray =
-                dbHandler.findRecipe(mInputView.getText().toString(), mColumnView.getText().toString());
+                dbHandler.findRecipe(mInputView.getText().toString().toLowerCase(), mColumnView.getText().toString());
+
+        for (int m = 0; m < recipeArray.length && recipeArray[m] != null; m++) {
+            //String[] splitRecipe = recipeArray[m].getIngredients().split(",\\s+");
+            Log.d(TAG, "Array value at " + m + " = " + recipeArray[m].getRecipeName()
+                    + " and id: " + recipeArray[m].getId());
+        }
 
         if (recipeArray[0] != null) {
             messageResId = R.string.correct_toast;

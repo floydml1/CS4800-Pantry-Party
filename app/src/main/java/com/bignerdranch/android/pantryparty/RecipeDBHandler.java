@@ -67,7 +67,7 @@ public class RecipeDBHandler extends SQLiteOpenHelper {
         db.close();
     }
 
-    /*
+    /**
      * Finds a recipe in the database and returns it to the user. Users
      * can search by any of the columns in the database.
      *
@@ -81,7 +81,7 @@ public class RecipeDBHandler extends SQLiteOpenHelper {
      */
     public Recipe[] findRecipe(String input, String column) {
         String columnTitle = null;
-        Recipe[] recipeArray = new Recipe[30];
+        Recipe[] recipeArray = new Recipe[40];
         if (column.equals(COLUMN_ID)) {
             columnTitle = COLUMN_ID;
         }
@@ -111,34 +111,79 @@ public class RecipeDBHandler extends SQLiteOpenHelper {
 
         Cursor cursor = db.rawQuery(query, null);
 
-        Recipe recipe = new Recipe();
-
         if (cursor.moveToFirst()) {
             cursor.moveToFirst();
-            recipe.setId(Integer.parseInt(cursor.getString(0)));
-            recipe.setRecipeName(cursor.getString(1));
-            recipe.setCategory(cursor.getString(2));
-            recipe.setTotalTime(Integer.parseInt(cursor.getString(3)));
-            recipe.setIngredients(cursor.getString(4));
-            recipe.setInstructions(cursor.getString(5));
-            recipe.setServingSize(Integer.parseInt(cursor.getString(6)));
-            recipeArray[0] = recipe;
+            recipeArray[0] = new Recipe();
+            recipeArray[0].setId(Integer.parseInt(cursor.getString(0)));
+            recipeArray[0].setRecipeName(cursor.getString(1).toLowerCase());
+            recipeArray[0].setCategory(cursor.getString(2).toLowerCase());
+            recipeArray[0].setTotalTime(Integer.parseInt(cursor.getString(3)));
+            recipeArray[0].setIngredients(cursor.getString(4).toLowerCase());
+            recipeArray[0].setInstructions(cursor.getString(5).toLowerCase());
+            recipeArray[0].setServingSize(Integer.parseInt(cursor.getString(6)));
             int i = 1;
             while (cursor.moveToNext()) {
                 //cursor.moveToNext();
                 //Log.d(TAG, "Cursor found another recipe");
-                recipe.setId(Integer.parseInt(cursor.getString(0)));
-                recipe.setRecipeName(cursor.getString(1));
-                recipe.setCategory(cursor.getString(2));
-                recipe.setTotalTime(Integer.parseInt(cursor.getString(3)));
-                recipe.setIngredients(cursor.getString(4));
-                recipe.setInstructions(cursor.getString(5));
-                recipe.setServingSize(Integer.parseInt(cursor.getString(6)));
-                recipeArray[i] = recipe;
+                recipeArray[i] = new Recipe();
+                recipeArray[i].setId(Integer.parseInt(cursor.getString(0)));
+                recipeArray[i].setRecipeName(cursor.getString(1).toLowerCase());
+                recipeArray[i].setCategory(cursor.getString(2).toLowerCase());
+                recipeArray[i].setTotalTime(Integer.parseInt(cursor.getString(3)));
+                recipeArray[i].setIngredients(cursor.getString(4).toLowerCase());
+                recipeArray[i].setInstructions(cursor.getString(5).toLowerCase());
+                recipeArray[i].setServingSize(Integer.parseInt(cursor.getString(6)));
                 i++;
             }
             //Log.d(TAG, "finished properly");
             cursor.close();
+        }
+        return recipeArray;
+    }
+
+    /**
+     * Returns all recipes in the Recipe Database.
+     * @return Recipe[] an array containing Recipe Objects
+     */
+    public Recipe[] getAllRecipes() {
+        Recipe[] recipeArray = new Recipe[40];
+        String query = "Select * FROM " + TABLE_RECIPES;
+
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        Cursor cursor = db.rawQuery(query, null);
+
+        if (cursor.moveToFirst()) {
+            cursor.moveToFirst();
+            recipeArray[0] = new Recipe();
+            recipeArray[0].setId(Integer.parseInt(cursor.getString(0)));
+            recipeArray[0].setRecipeName(cursor.getString(1).toLowerCase());
+            recipeArray[0].setCategory(cursor.getString(2).toLowerCase());
+            recipeArray[0].setTotalTime(Integer.parseInt(cursor.getString(3)));
+            recipeArray[0].setIngredients(cursor.getString(4).toLowerCase());
+            recipeArray[0].setInstructions(cursor.getString(5).toLowerCase());
+            recipeArray[0].setServingSize(Integer.parseInt(cursor.getString(6)));
+            int i = 1;
+            while (cursor.moveToNext()) {
+                //cursor.moveToNext();
+                //Log.d(TAG, "Cursor found another recipe");
+                recipeArray[i] = new Recipe();
+                recipeArray[i].setId(Integer.parseInt(cursor.getString(0)));
+                recipeArray[i].setRecipeName(cursor.getString(1).toLowerCase());
+                recipeArray[i].setCategory(cursor.getString(2).toLowerCase());
+                recipeArray[i].setTotalTime(Integer.parseInt(cursor.getString(3)));
+                recipeArray[i].setIngredients(cursor.getString(4).toLowerCase());
+                recipeArray[i].setInstructions(cursor.getString(5).toLowerCase());
+                recipeArray[i].setServingSize(Integer.parseInt(cursor.getString(6)));
+                i++;
+            }
+            //Log.d(TAG, "finished properly");
+            cursor.close();
+        }
+        for (int m = 0; m < recipeArray.length && recipeArray[m] != null; m++) {
+            //String[] splitRecipe = recipeArray[m].getIngredients().split(",\\s+");
+            Log.d(TAG, "Array value at " + m + " = " + recipeArray[m].getRecipeName()
+                    + " and id: " + recipeArray[m].getId());
         }
         return recipeArray;
     }

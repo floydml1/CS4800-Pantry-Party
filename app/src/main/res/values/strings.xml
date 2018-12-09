@@ -41,7 +41,7 @@
     //test
 
     <!-- Toasts -->
-    <string name="wrong_format_toast">Must be an "id" to remove</string>
+    <string name="wrong_format_toast">Must be an id to remove</string>
     //test
     <string name="correct_delete">Deleted Successfully</string>
     //test

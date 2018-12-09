@@ -64,11 +64,11 @@ public class TestAddActivity extends AppCompatActivity {
 
         Recipe recipe =
                 new Recipe(mId,
-                        mRecipeNameView.getText().toString(),
-                        mCategoryView.getText().toString(),
+                        mRecipeNameView.getText().toString().toLowerCase(),
+                        mCategoryView.getText().toString().toLowerCase(),
                         Integer.parseInt(mTotalTimeView.getText().toString()),
-                        mIngredientsView.getText().toString(),
-                        mInstructionsView.getText().toString(),
+                        mIngredientsView.getText().toString().toLowerCase(),
+                        mInstructionsView.getText().toString().toLowerCase(),
                         Integer.parseInt(mServingSizeView.getText().toString()));
 
         dbHandler.addRecipe(recipe);
