@@ -172,4 +172,6 @@
     <string name="title_activity_eggs_benedict">EggsBenedict</string>
     <string name="title_activity_pumpkin_pancakes">PumpkinPancakes</string>
     <string name="title_activity_sesame_chicken">SesameChicken</string>
+    <string name="title_activity_fettuccine_alfredo">FettuccineAlfredo</string>
+    <string name="title_activity_baked_ziti">BakedZiti</string>
 </resources>

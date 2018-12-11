@@ -13,7 +13,8 @@ import java.util.ArrayList;
 
 public class RecipeListActivity extends AppCompatActivity {
 
-    //Recipe[][] recipeList = new Recipe[][]{};
+    //RecipeDBHandler dbHandler = new RecipeDBHandler(this, null, null, 1);
+    //Recipe[] recipeList = dbHandler.getAllRecipes();
     ArrayList<String> recipeList = new ArrayList<String>(){};
     ListView listView;
 
@@ -23,6 +24,7 @@ public class RecipeListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_recipe_list);
 
         listView = (ListView) findViewById(R.id.recipe_list);
+
         recipeList.add("Tacos");
         recipeList.add("Chicken Noodle Soup");
         recipeList.add("Spaghetti with Meatballs");
@@ -33,6 +35,8 @@ public class RecipeListActivity extends AppCompatActivity {
         recipeList.add("Eggs Benedict");
         recipeList.add("Pumpkin Pancakes");
         recipeList.add("Sesame Chicken");
+        recipeList.add("Fettuccine Alfredo");
+        recipeList.add("Baked Ziti");
 
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.activity_listview,recipeList);
@@ -82,6 +86,14 @@ public class RecipeListActivity extends AppCompatActivity {
                         break;
                     case 9:
                         in = new Intent(RecipeListActivity.this,SesameChicken.class);
+                        startActivity(in);
+                        break;
+                    case 10:
+                        in = new Intent(RecipeListActivity.this,FettuccineAlfredo.class);
+                        startActivity(in);
+                        break;
+                    case 11:
+                        in = new Intent(RecipeListActivity.this,BakedZiti.class);
                         startActivity(in);
                         break;
 

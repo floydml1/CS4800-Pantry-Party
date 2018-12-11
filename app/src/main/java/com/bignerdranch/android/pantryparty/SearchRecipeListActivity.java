@@ -54,7 +54,7 @@ public class SearchRecipeListActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(SearchRecipeListActivity.this, recipeTitlesArray.get[position] + "", Toast.LENGTH_SHORT).show();
+                Toast.makeText(SearchRecipeListActivity.this, recipeTitlesArray.get(position) + "", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(SearchRecipeListActivity.this,TacoRecipe.class);
                 startActivity(intent);
             }

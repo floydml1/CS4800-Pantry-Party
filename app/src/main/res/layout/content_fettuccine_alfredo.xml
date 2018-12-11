@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Total Time: 20 minutes\n
+\n
+Category: Dinner\n
+\n
+Serving Size: 4\n
+\n
+Ingredients:\n
+1 lb. pasta\n
+1/2 cup heavy cream\n
+1/2 cup butter\n
+1/2 cup parmesan\n
+1/4 cup parsley\n
+Black pepper\n
+2 tbsp. parsley\n
+\n
+Instructions:\n
+1. In a large pot of boiling water, cook pasta according to package instructions. \n
+2. In a large skillet over medium heat, add cream and butter. Cook until the butter is melted and the cream is heated through. Whisk in Parmesan and season with salt and pepper. \n
+3. Remove from heat.\n
+4. Add cooked pasta and toss until coated in sauce. Garnish with parsley and serve immediately.\n
+5. Enjoy!\n
+
+                	" />
+</android.support.v4.widget.NestedScrollView>
+

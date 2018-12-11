@@ -1,13 +1,4 @@
-#Tue Dec 11 13:40:31 EST 2018
-path.3=classes.dex
-path.2=classes.dex
-path.1=classes.dex
+#Tue Dec 11 14:04:27 EST 2018
+base.0=C\:\\Users\\Maggie Floyd\\AndroidStudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
 path.0=classes.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
 renamed.0=classes.dex
-base.3=C\:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
-base.2=C\:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
-base.1=C\:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
-base.0=C\:\\Users\\Evangeline\\StudioProjects\\CS4800-Pantry-Party\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
