@@ -4,92 +4,83 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity"
-    tools:layout_editor_absoluteY="73dp">
+    tools:context=".MenuActivity">
 
-    <android.support.constraint.ConstraintLayout
+    <LinearLayout
 
 
         android:id="@+id/linearLayout"
-        android:layout_width="366dp"
-        android:layout_height="0dp"
+        android:layout_width="381dp"
+        android:layout_height="495dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="130dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03">
 
         //view recipes
 
         <Button
             android:id="@+id/view_recipes_button"
             style="?android:textAppearanceSmall"
-            android:layout_width="0dp"
+            android:layout_width="417dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="16dp"
             android:text="@string/action_view_recipes"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textStyle="bold" />
 
         //search recipes
 
         <Button
             android:id="@+id/search_recipes_button"
             style="?android:textAppearanceSmall"
-            android:layout_width="0dp"
+            android:layout_width="417dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="16dp"
             android:text="@string/action_search_recipes"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/view_recipes_button" />
+            android:textStyle="bold" />
 
         //add recipe
 
         <Button
             android:id="@+id/add_recipe_button"
             style="?android:textAppearanceSmall"
-            android:layout_width="0dp"
+            android:layout_width="417dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="16dp"
             android:text="@string/action_add_recipe"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/search_recipes_button" />
+            android:textStyle="bold" />
 
         //favorites
 
         <Button
             android:id="@+id/favorites_button"
             style="?android:textAppearanceSmall"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="16dp"
             android:text="@string/action_favorites"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/add_recipe_button" />
+            android:textStyle="bold" />
 
-    </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="385dp"
-        android:layout_height="108dp"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -97,12 +88,13 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="383dp"
-        android:layout_height="103dp"
-        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="392dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/menu_bottom" />
 
 

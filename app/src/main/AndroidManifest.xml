@@ -72,6 +72,14 @@
             android:name=".SesameChicken"
             android:label="@string/title_activity_sesame_chicken"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BakedZiti"
+            android:label="@string/title_activity_baked_ziti"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FettuccineAlfredo"
+            android:label="@string/title_activity_fettuccine_alfredo"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".SearchRecipeListActivity"></activity>
     </application>
 
