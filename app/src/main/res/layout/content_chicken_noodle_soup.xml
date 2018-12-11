@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Total Time: 30 minutes\n
+        \n
+Category: Lunch\n
+\n
+Serving Size: 4\n
+\n
+Ingredients:\n
+2 cans chicken broth\n
+1 cup water\n
+1 medium carrot\n
+1 stalk celery\n
+1 1/4 cup all-purpose flour\n
+1/2 lb skinless, boneless chicken\n
+1 oz. egg noodles\n
+					\n
+
+Instructions:\n
+1. Heat the broth, water, black pepper, carrot, celery and chicken in a saucepan over medium-high heat to a boil.\n
+2. Stir in the noodles. Reduce heat to medium \n
+3. Cook until chicken is cooked through and the noodles are tender.\n
+4. Enjoy! \n
+
+                    	" />
+</android.support.v4.widget.NestedScrollView>
+

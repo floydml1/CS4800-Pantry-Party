@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".GarlicMashedPotatoes"
+    tools:showIn="@layout/activity_garlic_mashed_potatoes">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Total time: 35 mins \n
+                       \n
+Category: Dinner \n
+                         \n
+Serving Size: 5 \n
+                         \n
+Ingredients:\n
+8 Potatoes, peeled and quartered \n
+1/2 Cup Milk \n
+1/4 Cup Butter \n
+2 Cloves Garlic, minced \n
+Salt to Taste \n
+2 Tablespoons Sesame Seeds \n
+\n
+
+Instructions:\n
+1. Bring a large pot of water to boil \n
+2. Add potatoes, and boil until soft, about 20 mins \n
+3. Drain, and place in a large bowl \n
+4. Combine potatoes with milks, butter, garlic, salt, and pepper \n
+5. Mix with electric mixer or potato masher \n
+6. Sprinkle with sesame seeds \n
+7. Enjoy!\n
+                        " />
+
+</android.support.v4.widget.NestedScrollView>

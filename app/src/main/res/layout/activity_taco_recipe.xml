@@ -35,7 +35,6 @@
 
     <include
         layout="@layout/content_taco_recipe"
-        app:layout_anchor="@+id/imageView4"
         app:layout_anchorGravity="right|top" />
 
     <android.support.design.widget.FloatingActionButton
@@ -47,12 +46,6 @@
         app:layout_anchorGravity="bottom|end"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="match_parent"
-        android:layout_height="118dp"
-        app:layout_anchor="@+id/app_bar"
-        app:layout_anchorGravity="top|center"
-        app:srcCompat="@drawable/taco" />
+
 
 </android.support.design.widget.CoordinatorLayout>

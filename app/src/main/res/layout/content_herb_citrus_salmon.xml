@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Total Time: 25 minutes\n
+Category: Dinner\n
+\n
+Serving Size: 5\n
+\n
+Ingredients:\n
+1 1/4 lb. salmon fillet\n
+2 tbsp. olive oil\n
+2 tsp. chopped basil\n
+2 tsp. chopped parsley\n
+1/4 tsp. salt\n
+1/8 tsp. pepper\n
+1 lemon\n
+					\n
+
+Instructions:\n
+1. Preheat oven to 425 degrees. Spray a baking sheet, lay the salmon skin side down on the baking sheet.\n
+2. Stir together the olive oil, basil, parsley, salt, and pepper.
+3. Zest the lemon, and add the zest to the oil. Pour the herbs and oil over the salmon. \n
+4. Thinly slice the lemon. Place lemon slices over the salmon. \n
+5. Bake for 15 to 20 minutes.\n
+6. Enjoy!
+
+
+                    	" />
+</android.support.v4.widget.NestedScrollView>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Total Time: 60 minutes\n
+\n
+Category: Dinner\n
+\n
+Serving Size: 6\n
+\n
+Ingredients:\n
+2 (30 oz.) jars spaghetti sauce\n
+2 lbs. lean ground beef\n
+2 eggs\n
+3/4 cup breadcrumbs\n
+1/4 cup parsley\n
+1 garlic clove, minced\n
+1/2 tsp. salt\n
+1/4 cup parmesan cheese \n
+1 lb. spaghetti\n
+					\n
+
+Instructions:\n
+1. Place sauce in a large saucepan and simmer over medium heat\n
+2. In large bowl mix beef, eggs, crumbs, parsley, garlic, salt and Parmesan \n
+3. Shape into 18 meatballs. Place in simmering sauce\n
+4. When sauce returns to a simmer, cover and cook 30-35 minutes till cooked through.\n
+5. Serve sauce and meatballs over warm spaghetti.\n
+\n
+
+
+                    	" />
+</android.support.v4.widget.NestedScrollView>
+

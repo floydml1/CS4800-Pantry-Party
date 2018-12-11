@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Total Time: 25 minutes\n
+\n
+Category: Dinner\n
+\n
+Serving Size: 4\n
+\n
+Ingredients:\n
+1 large egg\n
+2 tbsp. cornstarch\n
+1 pinch salt and pepper\n
+1 lb. boneless skinless chicken thighs\n
+2 tbsp. cooking oil\n
+1 1/2 cup sesame ginger sauce \n
+4 cups cooked jasmine rice\n
+1 tbsp. sesame seeds\n
+					\n
+
+Instructions:\n
+1. In a large bowl, whisk together the egg, cornstarch, and salt and pepper. Trim the chicken thighs and cut them into pieces. Toss the chicken in the egg and cornstarch mixture.\n                  \n
+2. Cook oil over medium heat. Add the batter coated chicken and spread it out into the skillet. \n
+3. Cook chicken until brown on both sides.\n
+4. Pour the sesame ginger sauce over top and toss. Simmer sauce until thickened, then turn off the heat.\n
+5. Serve the chicken over rice. Enjoy!\n
+					\n
+
+
+                    	" />
+</android.support.v4.widget.NestedScrollView>
+

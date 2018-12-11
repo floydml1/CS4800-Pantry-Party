@@ -34,7 +34,44 @@
         <activity android:name=".SearchRecipeByIngredActivity" />
         <activity android:name=".SearchActivity" />
         <activity android:name=".ViewRecipesActivity" />
-        <activity android:name=".ViewActivity"></activity>
+        <activity android:name=".ViewActivity" />
+        <activity android:name=".RecipeListActivity" />
+        <activity
+            android:name=".SpaghettiWithMeatballs"
+            android:label="@string/title_activity_spaghetti_with_meatballs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChickenNoodleSoup"
+            android:label="@string/title_activity_chicken_noodle_soup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HerbCitrusSalmon"
+            android:label="@string/title_activity_herb_citrus_salmon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChickenParmesan"
+            android:label="@string/title_activity_chicken_parmesan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cheeseburger"
+            android:label="@string/title_activity_cheeseburger"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GarlicMashedPotatoes"
+            android:label="@string/title_activity_garlic_mashed_potatoes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EggsBenedict"
+            android:label="@string/title_activity_eggs_benedict"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PumpkinPancakes"
+            android:label="@string/title_activity_pumpkin_pancakes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SesameChicken"
+            android:label="@string/title_activity_sesame_chicken"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

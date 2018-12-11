@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Total Time: 30 minutes\n
+\n
+Category: Breakfast\n
+\n
+Serving Size: 6\n
+\n
+Ingredients:\n
+1 1\2 cup hollandaise sauce\n
+3 english muffins \n
+3 tbsp. butter\n
+6 slices canadian-style bacon/ham\n
+6 eggs\n
+4 tsp. distilled white vinegar\n
+					\n
+
+Instructions:\n
+1. In 1-quart saucepan, stir egg yolks and lemon juice. Add 1/4 cup of the butter. Cook on low, until butter is melted. Add remaining butter, melt.\n
+2. Split English muffins; toast. Spread each muffin half with some of the 3 tablespoons butter; keep warm.\n
+3. In 10-inch skillet, melt 1 teaspoon butter over medium heat. Cook bacon in butter until light brown on both sides; keep warm.\n
+4. Fill skillet with 2 to 3 inches water. Add vinegar to water. Heat to boiling; reduce to simmering. Break cold eggs into saucer, add to water. Cook 3 to 5 minutes. Remove.\n
+5. Place 1 slice bacon on each muffin half. Top with egg. Spoon warm sauce over eggs. Sprinkle with paprika. \n
+6. Enjoy!\n
+					\n
+
+
+                    	" />
+</android.support.v4.widget.NestedScrollView>
+

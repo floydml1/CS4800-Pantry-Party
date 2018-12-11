@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Total Time: 25 minutes\n
+\n
+Category: Breakfast\n
+\n
+Serving Size: 4\n
+\n
+Ingredients:\n
+1 cup milk\n
+1/2 cup pumpkin puree\n
+1 egg, beaten\n
+1 tbsp. vegetable oil\n
+1 1/4 cup all-purpose flour\n
+1/4 cup white sugar\n
+2 tsp. baking powder\n
+1/2 tsp. ground cinnamon\n
+1/4 tsp. ground nutmeg\n
+					\n
+
+Instructions:\n
+1. Sift flour, sugar, baking powder, cinnamon, and nutmeg together in a bowl.\n                  \n
+2. Whisk milk, pumpkin, egg, and oil together in a bowl. Pour milk mixture into flour mixture and stir until just moistened. Batter will be slightly lumpy.\n
+3. Heat a lightly oiled griddle over medium-high heat to 350 degrees F (175 degrees C). \n Drop batter by large spoonfuls onto the griddle and cook until bubbles form and the edges are dry, 1 to 3 minutes. \n Flip and cook until browned on the other side, about 1 minute more. Repeat with remaining batter.\n
+4. Enjoy!
+                     	\n
+
+
+                    	" />
+</android.support.v4.widget.NestedScrollView>
+

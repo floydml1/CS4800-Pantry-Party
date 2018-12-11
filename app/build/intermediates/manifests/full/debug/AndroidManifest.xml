@@ -44,6 +44,43 @@
         <activity android:name="com.bignerdranch.android.pantryparty.SearchActivity" />
         <activity android:name="com.bignerdranch.android.pantryparty.ViewRecipesActivity" />
         <activity android:name="com.bignerdranch.android.pantryparty.ViewActivity" />
+        <activity android:name="com.bignerdranch.android.pantryparty.RecipeListActivity" />
+        <activity
+            android:name="com.bignerdranch.android.pantryparty.SpaghettiWithMeatballs"
+            android:label="@string/title_activity_spaghetti_with_meatballs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.bignerdranch.android.pantryparty.ChickenNoodleSoup"
+            android:label="@string/title_activity_chicken_noodle_soup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.bignerdranch.android.pantryparty.HerbCitrusSalmon"
+            android:label="@string/title_activity_herb_citrus_salmon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.bignerdranch.android.pantryparty.ChickenParmesan"
+            android:label="@string/title_activity_chicken_parmesan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.bignerdranch.android.pantryparty.Cheeseburger"
+            android:label="@string/title_activity_cheeseburger"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.bignerdranch.android.pantryparty.GarlicMashedPotatoes"
+            android:label="@string/title_activity_garlic_mashed_potatoes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.bignerdranch.android.pantryparty.EggsBenedict"
+            android:label="@string/title_activity_eggs_benedict"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.bignerdranch.android.pantryparty.PumpkinPancakes"
+            android:label="@string/title_activity_pumpkin_pancakes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.bignerdranch.android.pantryparty.SesameChicken"
+            android:label="@string/title_activity_sesame_chicken"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

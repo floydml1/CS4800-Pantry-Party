@@ -162,4 +162,14 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_spaghetti_with_meatballs">SpaghettiWithMeatballs</string>
+    <string name="title_activity_chicken_noodle_soup">ChickenNoodleSoup</string>
+    <string name="title_activity_tortilla_soup">TortillaSoup</string>
+    <string name="title_activity_herb_citrus_salmon">HerbCitrusSalmon</string>
+    <string name="title_activity_chicken_parmesan">ChickenParmesan</string>
+    <string name="title_activity_cheeseburger">Cheeseburger</string>
+    <string name="title_activity_garlic_mashed_potatoes">GarlicMashedPotatoes</string>
+    <string name="title_activity_eggs_benedict">EggsBenedict</string>
+    <string name="title_activity_pumpkin_pancakes">PumpkinPancakes</string>
+    <string name="title_activity_sesame_chicken">SesameChicken</string>
 </resources>

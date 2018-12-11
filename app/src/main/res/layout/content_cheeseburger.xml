@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="Total time: 30 mins \n
+                       \n
+Category: Dinner\n
+                         \n
+Serving Size: 4\n
+                         \n
+Ingredients:\n
+4 Hamburger Patties\n
+4 Slices of Cheese (Recommended: American)\n
+4 Hamburger Buns\n
+                         \n
+
+Instructions:\n
+1. Cook hamburger patties until around medium well\n
+2. Melt cheese on top of hamburger patties\n
+3. Toast hamburger buns\n
+4. Enjoy!\n
+
+                         " />
+</android.support.v4.widget.NestedScrollView>
