@@ -31,22 +31,11 @@ public class SearchRecipeListActivity extends AppCompatActivity {
 
         for (int i = 0; i < tempArray.length && tempArray[i] != null; i++) {
             recipeTitlesArray.add(tempArray[i]);
-            Log.d(TAG, recipeTitlesArray.get(i));
+            //Log.d(TAG, recipeTitlesArray.get(i));
         }
-        Log.d(TAG, "finished loop");
+        //Log.d(TAG, "finished loop");
 
         listView = (ListView) findViewById(R.id.search_recipe_list);
-        //recipeList.add("Tacos");
-        //recipeList.add("Chicken Noodle Soup");
-        //recipeList.add("Spaghetti with Meatballs");
-        //recipeList.add("Herb Citrus Salmon");
-        //recipeList.add("Chicken Parmesan");
-        //recipeList.add("Cheeseburger");
-        //recipeList.add("Garlic Mashed Potatoes");
-        //recipeList.add("Eggs Benedict");
-        //recipeList.add("Pumpkin Pancakes");
-        //recipeList.add("Sesame Chicken");
-
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.activity_listview, recipeTitlesArray);
 
@@ -57,6 +46,57 @@ public class SearchRecipeListActivity extends AppCompatActivity {
                 Toast.makeText(SearchRecipeListActivity.this, recipeTitlesArray.get(position) + "", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(SearchRecipeListActivity.this,TacoRecipe.class);
                 startActivity(intent);
+
+                switch (recipeTitlesArray.get(position)){
+                    case "tacos":
+                        Intent in = new Intent(SearchRecipeListActivity.this,TacoRecipe.class);
+                        startActivity(in);
+                        break;
+                    case "chicken noodle soup":
+                        in = new Intent(SearchRecipeListActivity.this,ChickenNoodleSoup.class);
+                        startActivity(in);
+                        break;
+                    case "spaghetti with meatballs":
+                        in = new Intent(SearchRecipeListActivity.this,SpaghettiWithMeatballs.class);
+                        startActivity(in);
+                        break;
+                    case "herb citrus salmon":
+                        in = new Intent(SearchRecipeListActivity.this,HerbCitrusSalmon.class);
+                        startActivity(in);
+                        break;
+                    case "chicken parmesan":
+                        in = new Intent(SearchRecipeListActivity.this,ChickenParmesan.class);
+                        startActivity(in);
+                        break;
+                    case "cheeseburger":
+                        in = new Intent(SearchRecipeListActivity.this,Cheeseburger.class);
+                        startActivity(in);
+                        break;
+                    case "garlic mashed potatoes":
+                        in = new Intent(SearchRecipeListActivity.this,GarlicMashedPotatoes.class);
+                        startActivity(in);
+                        break;
+                    case "eggs benedict":
+                        in = new Intent(SearchRecipeListActivity.this,EggsBenedict.class);
+                        startActivity(in);
+                        break;
+                    case "pumpkin pancakes":
+                        in = new Intent(SearchRecipeListActivity.this,PumpkinPancakes.class);
+                        startActivity(in);
+                        break;
+                    case "sesame chicken":
+                        in = new Intent(SearchRecipeListActivity.this,SesameChicken.class);
+                        startActivity(in);
+                        break;
+                    case "fettuccine alfredo":
+                        in = new Intent(SearchRecipeListActivity.this,FettuccineAlfredo.class);
+                        startActivity(in);
+                        break;
+                    case "baked ziti":
+                        in = new Intent(SearchRecipeListActivity.this,BakedZiti.class);
+                        startActivity(in);
+                        break;
+                }
             }
         });
 
