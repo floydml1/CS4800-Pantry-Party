@@ -81,6 +81,7 @@
             android:name="com.bignerdranch.android.pantryparty.SesameChicken"
             android:label="@string/title_activity_sesame_chicken"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.bignerdranch.android.pantryparty.SearchRecipeListActivity" />
     </application>
 
 </manifest>

@@ -71,7 +71,8 @@
         <activity
             android:name=".SesameChicken"
             android:label="@string/title_activity_sesame_chicken"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SearchRecipeListActivity"></activity>
     </application>
 
 </manifest>

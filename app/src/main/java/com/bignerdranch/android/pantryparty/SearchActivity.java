@@ -33,7 +33,10 @@ public class SearchActivity extends AppCompatActivity {
         mTestSearchButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                searchByPantry(v);
+                String recipeTitles = putInString(searchByPantry(v));
+                Intent intent = new Intent(SearchActivity.this, SearchRecipeListActivity.class);
+                intent.putExtra("recipeTitles", recipeTitles);
+                startActivity(intent);
             }
         });
 
@@ -74,7 +77,7 @@ public class SearchActivity extends AppCompatActivity {
      * Use INTENT to pass the array object to the ListView Activity!! (Nerdranch Guide to Android Programming - GeoQuiz Ex)
      * @param view on click listener that calls the function
      */
-    public void searchByPantry(View view) {
+    public Recipe[] searchByPantry(View view) {
         RecipeDBHandler dbHandler = new RecipeDBHandler(this, null, null, 1);
         int messageResId = 0;
         String userInput = mInputIngredView.getText().toString().toLowerCase();
@@ -166,5 +169,19 @@ public class SearchActivity extends AppCompatActivity {
                 Toast.LENGTH_SHORT);
         toastTrue.setGravity(Gravity.TOP, 0, 0);
         toastTrue.show();
+
+        return shortCorrectRecipes;
+    }
+
+    public String putInString(Recipe[] recipeArray) {
+        String recipeTitles = "";
+        for(int i = 0; i < recipeArray.length && recipeArray[i] != null; i++)
+        {
+            String name = recipeArray[i].getRecipeName();
+            recipeTitles += name + "#";
+            //Toast.makeText(getApplicationContext(), uname, Toast.LENGTH_SHORT).show();
+        }
+        Log.d(TAG, "Recipe String = " + recipeTitles);
+        return recipeTitles;
     }
 }

@@ -40,6 +40,13 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
+        Button mFavoritesButton = (Button) findViewById(R.id.favorites_button);
+        mFavoritesButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MenuActivity.this, TestActivity.class));
+            }
+        });
 
 
     }
